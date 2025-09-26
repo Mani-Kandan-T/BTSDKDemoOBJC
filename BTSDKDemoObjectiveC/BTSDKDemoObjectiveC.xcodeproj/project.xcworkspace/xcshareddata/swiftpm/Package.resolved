@@ -1,0 +1,15 @@
+{
+  "originHash" : "16d516895907753a855194e9065f6baf65a99b05e0c8c0275ead523671f75c95",
+  "pins" : [
+    {
+      "identity" : "braintree_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/balaji-umasankar/braintree_ios/",
+      "state" : {
+        "branch" : "useraction-instrumentation-paypalrequest",
+        "revision" : "ca04191b116fa42a94dfabcda35c5fc34df323b9"
+      }
+    }
+  ],
+  "version" : 3
+}

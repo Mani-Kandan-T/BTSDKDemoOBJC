@@ -142,7 +142,7 @@
 			mainGroup = 7F9C1E222E853D4700786B85;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				7F9C1EE32E85499100786B85 /* XCLocalSwiftPackageReference "../../Development/balaji-braintree_ios" */,
+				7F4D221A2E8679D900B8CB26 /* XCRemoteSwiftPackageReference "braintree_ios" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 7F9C1E2C2E853D4800786B85 /* Products */;
@@ -366,14 +366,15 @@
 		};
 /* End XCConfigurationList section */
 
-/* Begin XCLocalSwiftPackageReference section */
-		7F9C1EE32E85499100786B85 /* XCLocalSwiftPackageReference "../../Development/balaji-braintree_ios" */ = {
-			isa = XCLocalSwiftPackageReference;
-			relativePath = "../../Development/balaji-braintree_ios";
-		};
-/* End XCLocalSwiftPackageReference section */
-
 /* Begin XCRemoteSwiftPackageReference section */
+		7F4D221A2E8679D900B8CB26 /* XCRemoteSwiftPackageReference "braintree_ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/balaji-umasankar/braintree_ios/";
+			requirement = {
+				branch = "useraction-instrumentation-paypalrequest";
+				kind = branch;
+			};
+		};
 		7F9C1EC72E8545E600786B85 /* XCRemoteSwiftPackageReference "Package" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "/Users/mthiagu/Development/balaji-braintree_ios/Package.swift";
